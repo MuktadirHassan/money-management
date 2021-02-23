@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Management</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheets -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid grid-cols-12">
+      <nav
+        class="flex flex-col justify-center h-screen p-2 list-none bg-gray-100"
+      >
+        <li class="py-5">
+          <svg
+            class="w-6 h-6 mx-auto"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+            ></path>
+          </svg>
+        </li>
+        <li class="py-5">
+          <svg
+            class="w-6 h-6 mx-auto"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M11 11V9a2 2 0 00-2-2m2 4v4a2 2 0 104 0v-1m-4-3H9m2 0h4m6 1a9 9 0 11-18 0 9 9 0 0118 0z"
+            ></path>
+          </svg>
+        </li>
+        <li class="py-5">
+          <svg
+            class="w-6 h-6 mx-auto"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+            ></path>
+          </svg>
+        </li>
+      </nav>
+      <main class="col-span-8">
+        <div class="container px-2 py-3 mx-auto">
+          <h1 class="text-3xl">Overview</h1>
+        </div>
+        <div class="container px-2 py-3 mx-auto">
+          <input type="date" name="" id="" />
+        </div>
+        <div class="container px-2 py-3 mx-auto">
+          <div class="grid p-3 bg-gray-100 rounded">
+            <p>Reports</p>
+          </div>
+        </div>
+      </main>
+      <aside class="col-span-3 p-2">
+        <h1 class="text-3xl font-semibold">Transaction Logs</h1>
+        <h2 class="py-2 text-xl">Recent Transaction</h2>
+        <!-- Single Transaction -->
+        <div class="flex justify-between">
+          <div class="mr-2">Img</div>
+          <div>
+            <h1>Internet Bill</h1>
+            <p>Date: 2 Jan 2021</p>
+          </div>
+          <div>-$500</div>
+        </div>
+        <!-- End of Single Transaction -->
+        <div class="flex justify-between">
+          <div class="mr-2">Img</div>
+          <div>
+            <h1>Internet Bill</h1>
+            <p>Date: 2 Jan 2021</p>
+          </div>
+          <div>-$500</div>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>

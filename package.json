@@ -1,0 +1,19 @@
+{
+  "name": "money-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuktadirHassan/money-management.git"
+  },
+  "author": "Muktadir Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuktadirHassan/money-management/issues"
+  },
+  "homepage": "https://github.com/MuktadirHassan/money-management#readme"
+}
