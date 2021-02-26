@@ -21,7 +21,7 @@
   <body>
     <div class="grid grid-cols-12">
       <nav
-        class="flex flex-col justify-center h-screen p-2 list-none bg-gray-100"
+        class="flex flex-col justify-center w-24 h-screen p-2 list-none bg-gray-100"
       >
         <li class="py-5">
           <svg
@@ -35,7 +35,13 @@
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+              d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"
             ></path>
           </svg>
         </li>
@@ -72,7 +78,8 @@
           </svg>
         </li>
       </nav>
-      <main class="col-span-8">
+      <main class="max-w-4xl col-span-8">
+        <!-- Page Header -->
         <div class="container px-2 py-3 mx-auto">
           <h1 class="text-3xl">Overview</h1>
         </div>
@@ -80,12 +87,16 @@
           <input type="date" name="" id="" />
         </div>
         <div class="container px-2 py-3 mx-auto">
-          <div class="grid p-3 bg-gray-100 rounded">
+          <div class="grid grid-cols-3 p-3 bg-gray-600 rounded h-72">
             <p>Reports</p>
+          </div>
+          <div class="grid grid-cols-2 p-3 mt-5 bg-gray-600 rounded h-72">
+            <div>Expense</div>
+            <div>Income</div>
           </div>
         </div>
       </main>
-      <aside class="max-w-md col-span-3 p-2 bg-red-100">
+      <aside class="col-span-3 p-2 bg-red-100">
         <div class="p-4 bg-gray-400 rounded-3xl">
           <h2 class="text-lg font-semibold">Current Balance</h2>
           <div>
